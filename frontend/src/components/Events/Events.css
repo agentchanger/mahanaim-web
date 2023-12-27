@@ -1,0 +1,52 @@
+.events-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+  align-items: center;
+}
+
+.event-img-wrapper {
+  margin-left: 10%;
+}
+
+.event-content-wrapper {
+  margin-right: 10%;
+}
+
+.event-header {
+  font-size: 150%;
+  font-weight: 300;
+}
+
+.event-content-wrapper > h1 {
+  font-size: 300%;
+  font-weight: 600;
+}
+
+.event-date {
+  font-weight: 400;
+  font-size: 150%;
+}
+
+.event-content-wrapper > p {
+  margin-bottom: 5%;
+}
+
+.event-content-wrapper > a {
+  color: white;
+  background-color: black;
+  padding: 2%;
+  border-radius: 4px;
+}
+
+.event-content-wrapper > a::after {
+  content: "→";
+  font-size: 200%;
+  padding: 3%;
+  vertical-align: middle;
+}
+
+.register-now-btn {
+  margin-left: 3%;
+}

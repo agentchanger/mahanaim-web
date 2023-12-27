@@ -1,0 +1,42 @@
+.location-wrapper {
+  height: 100vh;
+  display: flex;
+  margin-top: 15%;
+  gap: 5%;
+}
+
+.location-content {
+  margin-left: 5%;
+}
+
+.location-header {
+  font-size: 150%;
+  font-weight: 300;
+}
+
+.location-address {
+  font-size: 200%;
+  font-weight: 400;
+}
+
+.location-desc {
+  margin-bottom: 5%;
+}
+
+.findus-btn {
+  color: white;
+  background-color: black;
+  padding: 2%;
+  border-radius: 4px;
+}
+
+.findus-btn::after {
+  content: "→";
+  font-size: 200%;
+  padding: 3%;
+  vertical-align: middle;
+}
+
+.map {
+  margin-right: 5%;
+}

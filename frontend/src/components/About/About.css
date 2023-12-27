@@ -1,0 +1,58 @@
+.about-wrapper {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+}
+
+.about-wrapper > h1 {
+  font-size: 300%;
+  font-weight: 600;
+  color: var(--dark-grey-color);
+}
+
+.about-content {
+  display: flex;
+}
+
+.about-text-wrapper {
+  margin-right: 10%;
+}
+
+.about-text-wrapper > h2 {
+  font-weight: 400;
+}
+
+.about-text-wrapper > p {
+  font-weight: 300;
+  margin-bottom: 10%;
+}
+
+.btn-wrapper-about > a {
+  color: white;
+  background-color: black;
+  padding: 3%;
+  border-radius: 4px;
+}
+
+.btn-wrapper-about > a::after {
+  content: "→";
+  font-size: 200%;
+  padding: 3%;
+  vertical-align: middle;
+}
+
+.about-image-wrapper {
+  max-width: 500px;
+  height: auto;
+  margin-top: 2%;
+}
+
+img {
+  max-width: 450px;
+  height: auto;
+}
