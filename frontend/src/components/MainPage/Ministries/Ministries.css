@@ -66,19 +66,19 @@
 }
 
 .front#one {
-  background-image: url("../../assets/MEDIA.png");
+  background-image: url("../../../assets/MEDIA.png");
 }
 .front#two {
-  background-image: url("../../assets/EDUCATION.png");
+  background-image: url("../../../assets/EDUCATION.png");
 }
 .front#three {
-  background-image: url("../../assets/SOCIAL.png");
+  background-image: url("../../../assets/SOCIAL.png");
 }
 .front#four {
-  background-image: url("../../assets/CHURCH.png");
+  background-image: url("../../../assets/CHURCH.png");
 }
 .front#five {
-  background-image: url("../../assets/BUSINESS.png");
+  background-image: url("../../../assets/BUSINESS.png");
 }
 
 .back {

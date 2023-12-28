@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Profile from '../../assets/about-profile.svg'
+import assets from '../../../assets'
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
             <a href='#' className='findout-btn'>Find out more</a>
           </div>
         </div>
-        <div className='about-image-wrapper'><img src={Profile}></img></div>
+        <div className='about-image-wrapper'><img src={assets.Profile}></img></div>
       </div>
     </div>
   )

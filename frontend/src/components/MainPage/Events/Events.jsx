@@ -1,11 +1,11 @@
 import React from 'react'
 import './Events.css'
-import EventImage from '../../assets/event.png'
+import assets from '../../../assets'
 
 const Events = () => {
   return (
     <div className='events-wrapper'>
-      <div className='event-img-wrapper'><img src={EventImage} alt='eventImage'/>
+      <div className='event-img-wrapper'><img src={assets.EventImage} alt='eventImage'/>
         <img src=''/>
       </div>
       <div className='event-content-wrapper'>

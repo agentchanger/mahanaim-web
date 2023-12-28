@@ -1,13 +1,13 @@
 import React from 'react'
 import './Testimonies.css'
-import {Testi1, Testi2} from '../../assets/index'
+import assets from '../../../assets/index'
 
 const Testimonies = () => {
   return (
     <div className='testimonies-wrapper'>
       <div className='testimonies-img-wrapper'>
-        <div className='testimonies-img1-wrapper'><img src={Testi1}/></div>
-        <div className='testimonies-img2-wrapper'><img src={Testi2}/></div>
+        <div className='testimonies-img1-wrapper'><img src={assets.Testi1}/></div>
+        <div className='testimonies-img2-wrapper'><img src={assets.Testi2}/></div>
       </div>
       <div className='testimonies-content'>
         <p className='testimonies-header'>STORIES</p>

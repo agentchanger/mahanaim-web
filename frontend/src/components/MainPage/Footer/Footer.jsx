@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import {Instagram, YouTube, Facebook, TikTok, Line, Whatsapp, Telegram} from '../../assets/index'
+import assets from '../../../assets'
 
 const Footer = () => {
   return (
@@ -21,18 +21,18 @@ const Footer = () => {
         <div className='social-icons'>
           <h3>Find us on social media:</h3>
           <div className='icons'>
-            <a href='#' className='instagram'><img src={Instagram} alt='instagram'/></a>
-            <a href='#' className='youtube'><img src={YouTube} alt='youtube'/></a>
-            <a href='#' className='facebook'><img src={Facebook} alt='facebook'/></a>
-            <a href='#' className='tiktok'><img src={TikTok} alt='tiktok'/></a>
+            <a href='#' className='instagram'><img src={assets.Instagram} alt='instagram'/></a>
+            <a href='#' className='youtube'><img src={assets.YouTube} alt='youtube'/></a>
+            <a href='#' className='facebook'><img src={assets.Facebook} alt='facebook'/></a>
+            <a href='#' className='tiktok'><img src={assets.TikTok} alt='tiktok'/></a>
           </div>
         </div>
         <div className='contact-us'>
           <h3>Contact us via:</h3>
           <div className='icons'>
-            <a href='#' className='line'><img src={Line} alt='line'/></a>
-            <a href='#' className='whatsapp'><img src={Whatsapp} alt='whatsapp'/></a>
-            <a href='#' className='telegram'><img src={Telegram} alt='telegram'/></a>
+            <a href='#' className='line'><img src={assets.Line} alt='line'/></a>
+            <a href='#' className='whatsapp'><img src={assets.Whatsapp} alt='whatsapp'/></a>
+            <a href='#' className='telegram'><img src={assets.Telegram} alt='telegram'/></a>
           </div>
         </div>
       </div>
