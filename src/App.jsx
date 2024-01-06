@@ -5,8 +5,9 @@ import pages from "./pages"
 import divisiLawatanSubPages from "./pages/MinistriesPage/DivisiLawatan/index"
 
 const App = () => {
+  const reactAppName = "/mahanaim-web"
   return (
-    <Router>
+    <Router basename={reactAppName}>
       <components.Navbar/>
       <Routes>
         <Route path='/' element={<pages.MainPage/>}/>
