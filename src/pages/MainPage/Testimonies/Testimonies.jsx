@@ -1,10 +1,11 @@
 import React from 'react'
 import './Testimonies.css'
 import assets from '../../../assets/index'
+import { Link } from 'react-router-dom'
 
 const Testimonies = () => {
   return (
-    <div className='testimonies-wrapper'>
+    <div className='testimonies-wrapper' id='testimonies-anchor-tag'>
       <div className='mobile-testimonies-header'>
         <p className='header-white'>STORIES</p>
         <h1 className='title-white'>Our testimony</h1>
@@ -19,7 +20,7 @@ const Testimonies = () => {
           <h1 className='title-white'>Our testimony</h1>
         </div>
         <p className='text-body-white'>Setiap kegerakan dan pelayanan yang kami lakukan membawa banyak cerita dan kesaksian, baik dari mereka yang melayani maupun mereka yang dilayani. Pergumulan dan proses kehidupan yang mereka lewati, pada akhirnya tidak sebanding dengan perjumpaan dengan Tuhan dan rencanaNya atas setiap hidup mereka.</p>
-        <a href='#' className='btn-white'>Find out more</a>
+        <Link to='/testimonies' className='btn-white'>Find out more</Link>
       </div>
     </div>
   )

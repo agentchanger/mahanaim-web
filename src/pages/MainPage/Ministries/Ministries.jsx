@@ -24,7 +24,7 @@ const Ministries = () => {
   }
   
   return (
-    <div className='ministries-wrapper'>
+    <div className='ministries-wrapper' id='ministries-anchor-tag'>
       <div className='ministries-content'>
         <p className='header-black'>MINISTRIES</p>
         <div className='cards'>
@@ -35,7 +35,7 @@ const Ministries = () => {
               </div>
               <div className='back'>
                 <p>Membawa umat Tuhan kepada level dan dimensi Tuhan yang lebih dalam dan dahsyat lewat pujian penyembahan dan tarian.</p>
-                <Link to='/divisi-lawatan'>See more</Link>
+                <Link to='/divisi-pujian-dan-tarian'>See more</Link>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ const Ministries = () => {
               </div>
               <div className='back'>
                 <p>Melahirkan generasi yang takut akan Tuhan, menjadi penerus dan pemimpin bangsa di hari depan.</p>
-                <Link to='/divisi-lawatan'>See more</Link>
+                <Link to='/divisi-akademik'>See more</Link>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Ministries = () => {
               </div>
               <div className='back'>
                 <p>Pelayanan kepada masyarakat, melalui berbagai bantuan yang ditawarkan.</p>
-                <Link to='/divisi-lawatan'>See more</Link>
+                <Link to='/divisi-sosial'>See more</Link>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Ministries = () => {
               </div>
               <div className='back'>
                 <p>Menopang kegerakan dan penjangkauan lewat keuangan.</p>
-                <Link to='/divisi-lawatan'>See more</Link>
+                <Link to='/divisi-bisnis'>See more</Link>
               </div>
             </div>
           </div>

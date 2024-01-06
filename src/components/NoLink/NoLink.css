@@ -1,6 +1,26 @@
 .nolink-wrapper {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  gap: 20%;
+}
+
+.nolink-back-btn {
+  display: flex;
+  gap: 5%;
+  color: black;
+  cursor: pointer;
+}
+
+.nolink-back-btn:hover {
+  color: var(--orange-color);
+}
+
+@media screen and (max-width: 720px) {
+  .nolink-wrapper {
+    gap: 5%;
+  }
 }

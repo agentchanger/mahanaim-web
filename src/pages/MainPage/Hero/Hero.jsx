@@ -4,7 +4,7 @@ import './Hero.css'
 const Hero = () => {
   return (
     <header>
-      <div className='wrapper'>
+      <div className='wrapper' id='hero-anchor-tag'>
         <div className='call-to-action'>
           <h1 className='hero-header'>Kemah Para Pahlawan</h1>
           <p className='hero-subheader'>Jalan pulang bagi mereka yang terhilang</p>

@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './DivisiLawatan.css'
 import assets from '../../../assets'
 import { Link } from 'react-router-dom'
 
 const DivisiLawatan = () => {
+  useEffect(() => window.scrollTo(0, 0), []);
   return (
     <div className='divisi-lawatan-wrapper'>
       <div className='divisi-lawatan-header'>
@@ -25,22 +26,22 @@ const DivisiLawatan = () => {
         <div className='divisi-lawatan-list'>
           <img src={assets.DivisiGenerasiYoelProfile}/>
           <p>Generasi Yoel</p>
-          <a href='#'>View more</a>
+          <Link to='generasi-yoel'>View more</Link>
         </div>
         <div className='divisi-lawatan-list'>
           <img src={assets.DivisiPenjaraProfile}/>
           <p>Penjara</p>
-          <a href='#'>View more</a>
+          <Link to='penjara'>View more</Link>
         </div>
         <div className='divisi-lawatan-list'>
           <img src={assets.DivisiSukuPedalamanProfile}/>
           <p>Suku Pedalaman</p>
-          <a href='#'>View more</a>
+          <Link to='suku-pedalaman'>View more</Link>
         </div>
         <div className='divisi-lawatan-list'>
           <img src={assets.DivisiPremanProfile}/>
           <p>Preman & Transpuan</p>
-          <a href='#'>View more</a>
+          <Link to='preman-dan-transpuan'>View more</Link>
         </div>
       </div>
     </div>
