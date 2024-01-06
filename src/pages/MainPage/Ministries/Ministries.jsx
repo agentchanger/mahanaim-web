@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import './Ministries.css'
+import { Link } from 'react-router-dom'
 
 const Ministries = () => {
   const switchRefOne = useRef(null)
@@ -34,7 +35,7 @@ const Ministries = () => {
               </div>
               <div className='back'>
                 <p>Membawa umat Tuhan kepada level dan dimensi Tuhan yang lebih dalam dan dahsyat lewat pujian penyembahan dan tarian.</p>
-                <a href='#'>See more</a>
+                <Link to='/divisi-lawatan'>See more</Link>
               </div>
             </div>
           </div>
@@ -45,7 +46,7 @@ const Ministries = () => {
               </div>
               <div className='back'>
                 <p>Melahirkan generasi yang takut akan Tuhan, menjadi penerus dan pemimpin bangsa di hari depan.</p>
-                <a href='#'>See more</a>
+                <Link to='/divisi-lawatan'>See more</Link>
               </div>
             </div>
           </div>
@@ -56,7 +57,7 @@ const Ministries = () => {
               </div>
               <div className='back'>
                 <p>Pelayanan kepada masyarakat, melalui berbagai bantuan yang ditawarkan.</p>
-                <a href='#'>See more</a>
+                <Link to='/divisi-lawatan'>See more</Link>
               </div>
             </div>
           </div>
@@ -67,7 +68,7 @@ const Ministries = () => {
               </div>
               <div className='back'>
                 <p>Ujung tombak dari pelayanan Mahanaim, menjadi visi dan mimpi utama yang Tuhan berikan bagi Mahanaim.</p>
-                <a href='/divisi-lawatan'>See more</a>
+                <Link to='/divisi-lawatan'>See more</Link>
               </div>
             </div>
           </div>
@@ -78,7 +79,7 @@ const Ministries = () => {
               </div>
               <div className='back'>
                 <p>Menopang kegerakan dan penjangkauan lewat keuangan.</p>
-                <a href='#'>See more</a>
+                <Link to='/divisi-lawatan'>See more</Link>
               </div>
             </div>
           </div>

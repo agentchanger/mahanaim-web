@@ -8,7 +8,7 @@ const DivisiLawatan = () => {
     <div className='divisi-lawatan-wrapper'>
       <div className='divisi-lawatan-header'>
         <div className='divisi-lawatan-content'>
-            <a href='/' className='divisi-lawatan-back-btn'><img src={assets.LeftArrow}/><span>Ministries</span></a>
+            <Link to='/' className='divisi-lawatan-back-btn'><img src={assets.LeftArrow}/><span>Ministries</span></Link>
             <h1 className='title-black'>Divisi Lawatan</h1>
             <p className='header-black'>Ujung tombak dari pelayanan Mahanaim, menjadi visi dan mimpi utama yang Tuhan berikan bagi Mahanaim.</p>
             <p className='text-body-black'>Dimulai dari sebuah kerinduan hati Tuhan untuk bangsa Indonesia diselamatkan, hingga semua penduduknya orang benar. Kerinduan yang ditangkap dan disambar oleh Mahanaim, dan kerinduan tersebut menjadi sebuah tujuan utama hidup kami. Dimulai dengan begitu sederhana, Tuhan perlengkapi dan bawa menjadi luar biasa.</p>
