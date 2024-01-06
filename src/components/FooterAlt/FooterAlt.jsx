@@ -1,23 +1,18 @@
 import React from 'react'
-import './Footer.css'
+import '../Footer/Footer.css'
 import assets from '../../assets'
 
-const Footer = () => {
+const FooterAlt = () => {
   const instagramLink = "https://www.instagram.com/bmnnations/"
   const youtubeLink = "https://www.youtube.com/@bahteramedianetwork"
 
   return (
     <div className='footer-wrapper' id='footer-anchor-tag'>
-      <div className='form-container'>
-        <div className='form-title'><h1>Stay connected</h1></div>
-        <div className='input-container'>
-          <input type='text' placeholder='First Name'/>
-          <input type='text' placeholder='Last Name'/>
-          <input type='text' placeholder='Email Address'/>
-          <input type='text' placeholder='Phone Number'/>
-        </div>
-        <div className='join-btn-wrapper'>
-          <a className='btn-orange'>Join</a>
+      <div className='join-us-btns-container'>
+        <h1 className='title-white'>Join us now!</h1>
+        <div className='join-buttons'>
+          <a className='btn-orange'>Email  </a>
+          <a className='btn-orange'>Whatsapp  </a>
         </div>
       </div>
       <div className='icons-wrapper'>
@@ -46,4 +41,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default FooterAlt

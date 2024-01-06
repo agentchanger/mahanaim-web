@@ -18,7 +18,7 @@ const App = () => {
         <Route path='divisi-lawatan/youth' element={<divisiLawatanSubPages.Youth/>}/>
         <Route path='*' element={<components.NoLink/>}/>
       </Routes>
-      <components.Footer/>
+      <components.FooterAlt/>
     </Router>
   )
 }

@@ -58,6 +58,37 @@ input {
   font-size: 60%;
 }
 
+/* alternative footer design w/o forms */
+.join-us-btns-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.join-buttons {
+  display: flex;
+  gap: 1%;
+  font-size: 200%;
+  margin-bottom: 10%;
+}
+
+.join-buttons > .btn-orange {
+  position: relative;
+}
+
+.join-buttons .btn-orange:first-child {
+}
+
+.join-buttons .btn-orange:first-child::after {
+  content: url("../../assets/mail_btn.svg");
+  left: 30px;
+}
+
+.join-buttons .btn-orange:nth-child(2)::after {
+  content: url("../../assets/whatsapp_btn.svg");
+}
+
+/* mobile device */
 @media screen and (max-width: 720px) {
   .footer-wrapper {
     height: 50vh;
