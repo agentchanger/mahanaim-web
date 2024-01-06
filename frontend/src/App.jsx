@@ -1,11 +1,20 @@
 import React from 'react'
-import components from "./components"
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import components from './components'
+import pages from "./pages"
+import divisiLawatanSubPages from "./pages/MinistriesPage/DivisiLawatan/index"
 
 const App = () => {
   return (
-    <>
-      <components.MainPage/>
-    </>
+    <Router>
+      <components.Navbar/>
+      <Routes>
+        <Route path='/' element={<pages.MainPage/>}/>
+        <Route path='/divisi-lawatan' element={<pages.DivisiLawatan/>}/>
+        <Route path='divisi-lawatan/youth' element={<divisiLawatanSubPages.Youth/>}/>
+      </Routes>
+      <components.Footer/>
+    </Router>
   )
 }
 

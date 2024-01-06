@@ -1,0 +1,44 @@
+.youth-hero-wrapper {
+  height: 100vh;
+}
+
+.divisi-youth-back-btn {
+  display: flex;
+  gap: 2%;
+  color: black;
+}
+
+.divisi-youth-back-btn:hover {
+  color: var(--orange-color);
+}
+
+.divisi-youth-header {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 15%;
+}
+
+.divisi-youth-content {
+  margin-top: 10%;
+  margin-right: 5%;
+}
+
+.divisi-youth-content > .text-body-black {
+  margin-bottom: 10%;
+}
+
+.divisi-youth-img {
+  margin-top: 10%;
+}
+
+/* mobile device */
+@media screen and (max-width: 720px) {
+  .divisi-youth-header {
+    flex-direction: column-reverse;
+  }
+
+  .divisi-youth-img > img {
+    max-width: 300px;
+  }
+}

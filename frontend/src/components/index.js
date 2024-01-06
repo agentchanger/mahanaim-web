@@ -1,3 +1,4 @@
-import MainPage from "./MainPage/MainPage";
+import Footer from "./Footer/Footer";
+import Navbar from "./Navbar/Navbar";
 
-export default {MainPage}
+export default {Footer, Navbar};

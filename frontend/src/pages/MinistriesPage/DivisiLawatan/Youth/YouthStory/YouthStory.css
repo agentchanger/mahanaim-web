@@ -1,0 +1,40 @@
+.youth-story-wrapper {
+  height: 120vh;
+  background: url("../../../../../assets/youth_story.png");
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 35%;
+}
+
+.youth-story-title,
+.youth-story-desc {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.youth-story-title > .title-white {
+  font-size: 500%;
+  margin-top: 10%;
+}
+
+.youth-story-desc > .text-body-white {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2%;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 720px) {
+  .youth-story-wrapper {
+    height: 100vh;
+  }
+
+  .youth-story-title > .title-white {
+    font-size: 200%;
+  }
+
+  .youth-story-desc > .text-body-white {
+    padding: 5%;
+  }
+}

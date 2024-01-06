@@ -1,0 +1,171 @@
+.ministries-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 120vh;
+  background: var(--light-grey-color);
+}
+
+.ministries-content {
+  position: absolute;
+  width: 80%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ministry-card {
+  position: relative;
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+  color: black;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.front {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  padding: 5%;
+  background-image: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.front#one {
+  background-image: url("../../../assets/PUJIAN_DAN_TARIAN.svg");
+}
+.front#two {
+  background-image: url("../../../assets/EDUCATION.svg");
+}
+.front#three {
+  background-image: url("../../../assets/SOCIAL.svg");
+}
+.front#four {
+  background-image: url("../../../assets/CHURCH.svg");
+}
+.front#five {
+  background-image: url("../../../assets/BUSINESS.svg");
+}
+.front#six {
+  background-image: url("../../../assets/MORE.svg");
+}
+
+.front {
+  filter: grayscale(10%);
+}
+
+.back {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  background: var(--orange-color);
+  transform: rotateY(180deg);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.more-btn-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
+
+.more-btn-wrapper > a {
+  padding: 5%;
+}
+
+.more-btn-wrapper > a::after {
+  content: "";
+}
+
+@media screen and (max-width: 720px) {
+  .ministries-wrapper {
+    height: 100vh;
+  }
+
+  .ministries-content {
+    margin-top: 15%;
+  }
+
+  .ministry-card {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 15%;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+
+  .card.switch-front {
+    transform: rotateY(180deg);
+  }
+
+  .card-switch-back {
+    transform: rotateY(180deg);
+  }
+
+  .card p {
+    font-size: 120%;
+  }
+
+  .card a {
+    font-size: 120%;
+  }
+
+  .front {
+    font-size: 60%;
+  }
+
+  .back {
+    font-size: 50%;
+  }
+
+  .more-btn-wrapper {
+    width: 150px;
+    height: 150px;
+  }
+}
