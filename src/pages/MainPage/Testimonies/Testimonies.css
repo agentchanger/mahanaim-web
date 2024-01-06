@@ -64,6 +64,7 @@
 @media screen and (max-width: 720px) {
   .testimonies-wrapper {
     flex-direction: column;
+    height: 110vh;
   }
 
   .testimonies-header {

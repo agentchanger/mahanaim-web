@@ -29,12 +29,11 @@ h1.hero-header {
   margin-bottom: 0;
 }
 
-p.hero-subheader {
+h3.hero-subheader {
   position: relative;
   text-align: center;
   display: inline-block;
   font-size: 150%;
-  font-style: italic;
   color: var(--dark-grey-color);
   background: rgb(255, 255, 255, 0.5);
   box-shadow: 0px 4px 16px 0px rgba(22, 22, 22, 0.25);
@@ -51,7 +50,7 @@ p.hero-subheader {
     font-size: 250%;
   }
 
-  p.hero-subheader {
-    font-size: 90%;
+  h3.hero-subheader {
+    font-size: 100%;
   }
 }

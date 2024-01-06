@@ -123,16 +123,22 @@
 
 @media screen and (max-width: 720px) {
   .ministries-wrapper {
-    height: 100vh;
+    height: 320vh;
   }
 
   .ministries-content {
     margin-top: 15%;
   }
 
+  .cards {
+    display: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .ministry-card {
-    width: 140px;
-    height: 140px;
+    width: 300px;
+    height: 300px;
     margin-bottom: 15%;
   }
 
@@ -157,15 +163,15 @@
   }
 
   .front {
-    font-size: 60%;
+    font-size: 100%;
   }
 
   .back {
-    font-size: 50%;
+    font-size: 90%;
   }
 
   .more-btn-wrapper {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
   }
 }

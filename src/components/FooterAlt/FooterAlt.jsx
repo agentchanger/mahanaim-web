@@ -11,8 +11,14 @@ const FooterAlt = () => {
       <div className='join-us-btns-container'>
         <h1 className='title-white'>Join us now!</h1>
         <div className='join-buttons'>
-          <a className='btn-orange'>Email  </a>
-          <a className='btn-orange'>Whatsapp  </a>
+          <a className='btn-orange'>
+            <p>Email</p>
+            <img src={assets.MailButton}/>
+          </a>
+          <a className='btn-orange'>
+            <p>Whatsapp</p>
+            <img src={assets.WhatsappButton}/>
+          </a>
         </div>
       </div>
       <div className='icons-wrapper'>

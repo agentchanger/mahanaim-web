@@ -31,6 +31,10 @@ import YouthImage3 from './youth_img3.svg'
 import YouthImage4 from './youth_img4.svg'
 import YouthImage5 from './youth_img5.svg'
 
+// footer page assets
+import MailButton from './mail_btn.svg'
+import WhatsappButton from './whatsapp_btn.svg'
+
 export default {Profile, EventImage, Testi1, Testi2, Instagram, YouTube, Facebook, TikTok, Line, Whatsapp, Telegram,
     DivisiLawatanProfile, DivisiYouthProfile, DivisiGenerasiYoelProfile, DivisiPenjaraProfile, DivisiSukuPedalamanProfile, DivisiPremanProfile, LeftArrow,
-YouthHeroProfile, YouthImage1, YouthImage2, YouthImage3, YouthImage4, YouthImage5};
+YouthHeroProfile, YouthImage1, YouthImage2, YouthImage3, YouthImage4, YouthImage5, MailButton, WhatsappButton};

@@ -63,30 +63,37 @@ input {
   display: flex;
   flex-direction: column;
   width: 80%;
+  margin-bottom: 5%;
 }
 
 .join-buttons {
   display: flex;
   gap: 1%;
   font-size: 200%;
-  margin-bottom: 10%;
+  height: 20%;
 }
 
 .join-buttons > .btn-orange {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.btn-orange > p {
+  font-size: 80%;
 }
 
 .join-buttons .btn-orange:first-child {
 }
-
+/* 
 .join-buttons .btn-orange:first-child::after {
   content: url("../../assets/mail_btn.svg");
-  left: 30px;
 }
 
 .join-buttons .btn-orange:nth-child(2)::after {
   content: url("../../assets/whatsapp_btn.svg");
-}
+} */
 
 /* mobile device */
 @media screen and (max-width: 720px) {
@@ -127,16 +134,29 @@ input {
   }
 
   .copyright-footer {
-    font-size: 20%;
+    font-size: 40%;
     width: 80%;
   }
 
   .icons {
-    width: 70%;
+    width: 100%;
     gap: 5%;
   }
 
   .icons a img {
-    max-width: 70%;
+    max-width: 90%;
+  }
+
+  /* footer alternative design */
+  .join-us-btns-container {
+    margin-bottom: 10%;
+  }
+
+  .join-buttons {
+    font-size: 170%;
+  }
+
+  .join-buttons .btn-orange > img {
+    max-width: 15px;
   }
 }
