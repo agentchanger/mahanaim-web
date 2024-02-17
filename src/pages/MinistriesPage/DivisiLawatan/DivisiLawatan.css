@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 15%;
 }
 
 .divisi-lawatan-back-btn {
@@ -17,6 +18,8 @@
 
 .divisi-lawatan-header {
   display: flex;
+  margin-top: 10%;
+  margin-bottom: 5%;
   width: 80%;
   height: 80%;
   justify-content: center;
@@ -38,12 +41,20 @@
 .divisi-lawatan-list-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   width: 80%;
+  gap: 2%;
+  justify-content: center;
+  padding: 2%;
   margin-top: 0;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 5%;
+  box-shadow: 0px 4px 16px 0px rgba(22, 22, 22, 0.25);
+  border-radius: 8px;
+}
+
+.divisi-lawatan-list#coming-soon {
+  visibility: hidden;
+  overflow: hidden;
 }
 
 .divisi-lawatan-list {
@@ -51,10 +62,11 @@
   flex-direction: column;
   flex-grow: 0;
   margin-bottom: 5%;
+  width: 23%;
 }
 
 .divisi-lawatan-list > img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .divisi-lawatan-list > p {
@@ -73,6 +85,7 @@
 @media screen and (max-width: 720px) {
   .divisi-lawatan-wrapper {
     height: 400vh;
+    margin-bottom: 120%;
   }
   .divisi-lawatan-header {
     flex-direction: column-reverse;
@@ -89,20 +102,28 @@
     /* all: initial; */
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 70%;
+    height: 100%;
     gap: 4%;
+    align-items: center;
+  }
+
+  .divisi-lawatan-list#coming-soon {
+    width: 0;
+    height: 0;
   }
 
   .divisi-lawatan-list {
+    margin: 5%;
     margin-bottom: 0;
+    width: 90%;
   }
 
   .divisi-lawatan-list > p {
     margin-bottom: 2%;
   }
 
-  .divisi-lawatan-img {
-    align-items: center;
+  .divisi-lawatan-list-link {
+    margin-bottom: 15%;
   }
 
   .divisi-lawatan-img > img {

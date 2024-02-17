@@ -35,6 +35,9 @@ import YouthImage5 from './youth_img5.svg'
 import MailButton from './mail_btn.svg'
 import WhatsappButton from './whatsapp_btn.svg'
 
+// coming soon
+import ComingSoon from './coming_soon.svg'
+
 export default {Profile, EventImage, Testi1, Testi2, Instagram, YouTube, Facebook, TikTok, Line, Whatsapp, Telegram,
     DivisiLawatanProfile, DivisiYouthProfile, DivisiGenerasiYoelProfile, DivisiPenjaraProfile, DivisiSukuPedalamanProfile, DivisiPremanProfile, LeftArrow,
-YouthHeroProfile, YouthImage1, YouthImage2, YouthImage3, YouthImage4, YouthImage5, MailButton, WhatsappButton};
+YouthHeroProfile, YouthImage1, YouthImage2, YouthImage3, YouthImage4, YouthImage5, MailButton, WhatsappButton, ComingSoon};

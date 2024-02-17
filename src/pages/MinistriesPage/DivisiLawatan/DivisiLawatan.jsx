@@ -17,31 +17,47 @@ const DivisiLawatan = () => {
         <div className='divisi-lawatan-img'><img src={assets.DivisiLawatanProfile}/></div>  
       </div>
 
+      <div className='divisi-lawatan-list-header'><h1>Our Members</h1></div>
       <div className='divisi-lawatan-list-wrapper'>
         <div className='divisi-lawatan-list'>
           <img src={assets.DivisiYouthProfile}/>
           <p>Youth</p>
-          <Link to='youth'>View more</Link>
+          <Link className='divisi-lawatan-list-link' to='youth'>View more</Link>
         </div>
         <div className='divisi-lawatan-list'>
           <img src={assets.DivisiGenerasiYoelProfile}/>
-          <p>Generasi Yoel</p>
-          <Link to='generasi-yoel'>View more</Link>
+          <p>Rumah Singgah & Generasi Yoel</p>
+          <Link className='divisi-lawatan-list-link' to='generasi-yoel'>View more</Link>
         </div>
         <div className='divisi-lawatan-list'>
           <img src={assets.DivisiPenjaraProfile}/>
           <p>Penjara</p>
-          <Link to='penjara'>View more</Link>
+          <Link className='divisi-lawatan-list-link' to='penjara'>View more</Link>
         </div>
         <div className='divisi-lawatan-list'>
           <img src={assets.DivisiSukuPedalamanProfile}/>
           <p>Suku Pedalaman</p>
-          <Link to='suku-pedalaman'>View more</Link>
+          <Link className='divisi-lawatan-list-link' to='suku-pedalaman'>View more</Link>
         </div>
         <div className='divisi-lawatan-list'>
           <img src={assets.DivisiPremanProfile}/>
           <p>Preman & Transpuan</p>
-          <Link to='preman-dan-transpuan'>View more</Link>
+          <Link className='divisi-lawatan-list-link' to='*'>View more</Link>
+        </div>
+        <div className='divisi-lawatan-list' id='coming-soon'>
+          <img src={assets.ComingSoon}/>
+          <p>Coming soon</p>
+          <Link className='divisi-lawatan-list-link' to='*'>View more</Link>
+        </div>
+        <div className='divisi-lawatan-list' id='coming-soon'>
+          <img src={assets.ComingSoon}/>
+          <p>Coming soon</p>
+          <Link className='divisi-lawatan-list-link' to='*'>View more</Link>
+        </div>
+        <div className='divisi-lawatan-list' id='coming-soon'>
+          <img src={assets.ComingSoon}/>
+          <p>Coming soon</p>
+          <Link className='divisi-lawatan-list-link' to='preman-dan-transpuan'>View more</Link>
         </div>
       </div>
     </div>
