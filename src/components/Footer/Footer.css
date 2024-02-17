@@ -1,6 +1,6 @@
 .footer-wrapper {
   height: 75vh;
-  background: var(--dark-grey-color);
+  background: var(--blue-zodiac);
   color: white;
   display: flex;
   flex-direction: column;

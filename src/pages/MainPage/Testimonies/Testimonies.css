@@ -1,11 +1,7 @@
 .testimonies-wrapper {
   height: 100vh;
   background: rgb(2, 78, 255);
-  background: linear-gradient(
-    270deg,
-    rgba(2, 78, 255, 1) 35%,
-    rgba(2, 255, 171, 1) 100%
-  );
+  background: linear-gradient(115deg, #00468b 2.51%, #2ecbe9 94.27%);
   display: flex;
 }
 

@@ -13,6 +13,7 @@ const App = () => {
       <components.Navbar/>
       <Routes>
         <Route path='/' element={<pages.MainPage/>}/>
+        <Route path='about' element={<pages.AboutPage/>}/>
         <Route path='ministries' element={<mainPageElements.Ministries/>}/>
         <Route path='divisi-lawatan' element={<pages.DivisiLawatan/>}/>
         <Route path='divisi-lawatan/youth' element={<divisiLawatanSubPages.Youth/>}/>

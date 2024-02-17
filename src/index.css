@@ -6,6 +6,12 @@
   --beige-color: #fcf2e2;
   --orange-color: #fca311;
   --dark-blue-color: #080838;
+
+  --blue-zodiac: #0c243c;
+  --smalt: #00468b;
+  --pacific-blue: #128fc8;
+  --summer-sky: #2ecbe9;
+  --mustard: #ffe45c;
 }
 
 *,
@@ -34,7 +40,7 @@ a {
 /* fonts and text */
 .title-black {
   font-size: 300%;
-  font-weight: 600;
+  font-style: bold;
   color: var(--dark-grey-color);
 }
 
@@ -46,14 +52,12 @@ a {
 
 .header-black {
   font-size: 150%;
-  font-weight: 400;
-  font-style: normal;
+  font-style: bold;
 }
 
 .bolded-header-black {
   font-size: 150%;
-  font-weight: 600;
-  font-style: normal;
+  font-style: bold;
 }
 
 .header-white {
@@ -64,6 +68,7 @@ a {
 
 .text-body-black {
   font-size: 100%;
+  font-style: normal;
 }
 
 .text-body-white {
@@ -74,7 +79,8 @@ a {
 /* buttons */
 .btn-black {
   color: white;
-  background-color: black;
+  background-color: var(--blue-zodiac);
+  font-style: bold;
   padding: 3%;
   border-radius: 4px;
   white-space: nowrap;
@@ -82,7 +88,7 @@ a {
 }
 
 .btn-black:hover {
-  color: var(--orange-color);
+  color: var(--mustard);
 }
 
 .btn-black::after {
@@ -134,14 +140,14 @@ img {
 @media screen and (max-width: 720px) {
   /* fonts and text */
   .title-black {
-    font-size: 150%;
+    font-size: 200%;
   }
-  .header-black {
+  /* .header-black {
     font-size: 100%;
-  }
-  .text-body-black {
+  } */
+  /* .text-body-black {
     font-size: 80%;
-  }
+  } */
 
   .title-white {
     font-size: 150%;

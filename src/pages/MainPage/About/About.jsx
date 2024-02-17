@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
-    <>
+    <div className='about-page-wrapper'>
       <a id='about-anchor-tag'></a>
       <div className='about-wrapper'>
         <h1 className='title-black'>Mahanaim adalah rumah bagi mereka yang dipilihNya.</h1>
@@ -18,7 +18,7 @@ const About = () => {
           <div className='about-image-wrapper'><img src={assets.Profile}></img></div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
